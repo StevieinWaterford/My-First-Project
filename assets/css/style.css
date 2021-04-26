@@ -10,9 +10,27 @@
 
 body {
 
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
     font-family: 300;
+    color:rgb(255, 0, 0);
 }
 
+
+
+
+
+
+
+h1, h2 {
+    font-family: Raleway sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: blue;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
 
 
