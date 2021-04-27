@@ -72,3 +72,32 @@ h1, h2 {
     width: 100%;
     background: url('../images/pexels-photo-3184296.jpeg') no-repeat center center;
 }
+
+#cover-text, #cover-text h2 {
+    color: #555
+}
+
+
+
+/* history */
+
+
+#history {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 50%;
+    float: left;
+    background-color: blue;
+   
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    background-color: chartreuse;
+    
+}
