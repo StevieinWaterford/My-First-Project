@@ -8,13 +8,13 @@
 
 
 
+
 body {
 
     font-family: Raleway, sans-serif;
     font-family: 300;
-    color:rgb(255, 0, 0);
+    color:rgb(255, 0, 43);
 }
-
 
 
 
@@ -24,13 +24,18 @@ body {
 h1, h2 {
     font-family: Raleway sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    color: blue;
+    letter-spacing: 10px;
+    color: rgb(17, 0, 255);
+   
+    
 }
 
 #logo {
     text-align: center;
-    font-size: 280%;
+    font-size: 100%;
+   
+    
+   
 }
 
 
@@ -41,9 +46,29 @@ h1, h2 {
     letter-spacing: 5px;
 }
 
+
+#menu, #logo {
+    line-height: 75px;
+
+}
+
+
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 20px;
+    overflow: hidden;
+}
 
+
+
+/* hero image */
+
+
+
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/pexels-photo-3184296.jpeg') no-repeat center center;
 }
